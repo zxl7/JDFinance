@@ -6,23 +6,23 @@
 
 <script>
 export default {
-    props: {
-        cname: {
-            type: String,
-            default: "",
-        },
-    },
-    data() {
-        return {
-            btnClass: "btn",
-        }
-    },
+  props: {
+    cname: {
+      type: String,
+      default: ''
+    }
+  },
+  data () {
+    return {
+      btnClass: 'btn'
+    }
+  }
 }
 </script>
 
 <style lang="scss">
-@import "../../css/element.scss";
-.btn{
+@import '../../css/element.scss';
+.btn {
   @include btn;
 }
 </style>

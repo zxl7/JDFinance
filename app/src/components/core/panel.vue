@@ -7,27 +7,20 @@
 
 <script>
 export default {
-    props: {
-        cname: {
-            type: String,
-            default: "",
-        },
-        title: {
-            type: String,
-            default: "",
-        },
+  props: {
+    cname: {
+      type: String,
+      default: ''
     },
-    data() {
-        return {
-            panelClass: "panel",
-        }
-    },
+    title: {
+      type: String,
+      default: ''
+    }
+  },
+  data () {
+    return {
+      panelClass: 'panel'
+    }
+  }
 }
 </script>
-
-<style lang="scss">
-  @import "../../css/element.scss";
-  .panel{
-    @include panel;
-  }
-</style>
