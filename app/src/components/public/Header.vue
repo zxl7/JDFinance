@@ -16,13 +16,13 @@
   color: #666;
   height: 5rem;
   line-height: 5rem;
-  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   background: #fff url(//m.jr.jd.com/spe/qyy/main/images/jr-logo.png) center
     center no-repeat;
   background-size: auto 50%;
+  position: fixed;
 }
 .left {
   font-size: 1rem;
