@@ -38,9 +38,6 @@ export default {
 .panel {
   padding-bottom: 3rem;
 }
-.content {
-  background: #f5f5f5;
-}
 
 .help img {
   width: 100%;
