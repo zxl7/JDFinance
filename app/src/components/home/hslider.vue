@@ -82,7 +82,7 @@ export default {
 </script>
 <style>
 .hslider {
-  margin-top: 4.5rem;
+  margin-top: 5rem;
 }
 .slider img {
   width: 100%;
@@ -104,8 +104,8 @@ a {
 }
 .item img {
   display: inline-block;
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
 }
 h4 {
   font-size: 1rem;
