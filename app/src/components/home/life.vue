@@ -1,5 +1,6 @@
 <template lang="html">
     <Panel title="生活服务" class="panel">
+      <h4>--生活服务--</h4>
         <div class="content">
             <div class="item">
                 <img src="//img12.360buyimg.com/jrpmobile/jfs/t4375/104/1184122472/3976/89741da4/58be8a6eNf10193d0.png?width=135&height=135" alt="">

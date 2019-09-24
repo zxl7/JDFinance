@@ -1,5 +1,6 @@
 <template lang="html">
     <Panel title="理财精选" class="panel">
+      <h4>--理财精选--</h4>
         <section class="content">
             <div class="item" v-for="item in items" :key="item.title">
                 <p>{{ item.title }}<span>{{ item.sub }}</span></p>

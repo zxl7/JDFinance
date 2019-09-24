@@ -82,7 +82,7 @@ export default {
 </script>
 <style>
 .hslider {
-  margin-top: 5rem;
+  margin-top: 4.5rem;
 }
 .slider img {
   width: 100%;

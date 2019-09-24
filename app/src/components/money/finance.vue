@@ -1,5 +1,6 @@
 <template lang="html">
     <Panel title="理财精选" class="panel">
+      <h4>--理财精选--</h4>
         <section class="content">
             <div class="item">
                 <img src="//img12.360buyimg.com/jrpmobile/jfs/t3670/58/543125556/2606/a65096b9/580d80afN63b1085a.png?width=76&height=76" alt="">

@@ -1,5 +1,6 @@
 <template lang="html">
     <Panel title="新品推荐" class="panel">
+      <h4>--新品推荐--</h4>
         <section class="content">
             <div class="arrow">更多尖货 ></div>
             <Slider :options="options" :items="items" cname="product-slider"/>

@@ -1,5 +1,6 @@
 <template lang="html">
     <Panel title="白条福利" class="panel">
+      <h4>--白条福利--</h4>
         <section class="content">
             <div class="item">
                 <img src="//img12.360buyimg.com/jrpmobile/jfs/t4378/62/155957680/9017/16463551/58affd58Nb5c9198e.jpg?width=120&height=120" alt="">
@@ -60,8 +61,6 @@ span {
 p {
   color: #999;
   font-size: 1rem;
-  line-height: 1.1;
-  white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }

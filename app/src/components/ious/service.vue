@@ -1,5 +1,6 @@
 <template lang="html">
     <Panel title="更多服务" class="panel">
+      <h4>--更多服务--</h4>
         <section class="content">
             <div class="item" v-for="item in items" :key="item.img">
                 <img :src="item.img" alt="">

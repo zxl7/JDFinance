@@ -67,12 +67,9 @@ img {
   height: 4rem;
 }
 p {
-  font-size: 1rem;
   text-align: center;
+  font-size: 1rem;
   color: #999;
   padding-top: 12px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  border-top: 1px solid #ddd;
 }
 </style>

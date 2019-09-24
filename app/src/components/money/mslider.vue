@@ -1,5 +1,6 @@
 <template lang="html">
     <Panel title="轮播图" class="panel">
+      <h4>--新手特权--</h4>
         <section class="content">
             <Slider :items="items" cname="slider"/>
         </section>
@@ -33,9 +34,9 @@ export default {
 }
 </script>
 
-<style>
-.slider {
-  margin-top: 40px;
+<style scoped>
+.panel {
+  margin-top: 3rem;
 }
 img {
   width: 100%;

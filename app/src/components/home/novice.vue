@@ -1,5 +1,6 @@
 <template lang="html">
     <Panel title="新手特权" class="panel">
+      <h4>--新手特权--</h4>
         <section class="content">
             <div class="item1">
                 <h4>下载APP<span class="red">送888元礼包</span></h4>
@@ -44,12 +45,13 @@ export default {
   background-color: #fff;
 }
 
-h4 {
-  border-bottom: 1px solid #ddd;
+.panel h4 {
+  font-size: 1rem;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   text-align: center;
+  border-bottom: 1px solid #ddd;
 }
 .content {
   display: flex;
@@ -95,6 +97,7 @@ ul {
 }
 
 .item2 {
+  width: 50%;
   margin-left: 1rem;
 }
 li {
