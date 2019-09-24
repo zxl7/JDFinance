@@ -61,6 +61,7 @@ export default {
   align-items: center;
 }
 .item {
+  width: 50%;
   flex: 1 0 auto;
   box-sizing: border-box;
 }
