@@ -20,6 +20,7 @@
   left: 0;
   right: 0;
 }
+
 .header {
   display: inline-block;
   color: #666;
