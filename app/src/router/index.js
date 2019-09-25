@@ -4,8 +4,8 @@ import Home from '@/components/home/index.vue'
 import Money from '@/components/money/index.vue'
 import Ious from '@/components/ious/index.vue'
 import Raise from '@/components/raise/index.vue'
+import Download from '@/components/special/download.vue'
 
-// import Download from '../special/download.vue'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css'
 
@@ -30,12 +30,10 @@ export default new Router({
       path: '/raise',
       name: 'raise',
       component: Raise
+    }, {
+      path: '/download',
+      name: 'download',
+      component: Download
     }
   ]
 })
-
-// , {
-//   path: "/download",
-//   name: "download",
-//   component: Download,
-// },

@@ -39,7 +39,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  height: 5.1rem;
+  height: 4rem;
   background: #fff;
   display: flex;
   justify-content: space-around;
@@ -47,8 +47,8 @@
 }
 
 img {
-  width: 2.7rem;
-  height: 2.7rem;
+  width: 1.7rem;
+  height: 1.7rem;
   display: inline-block;
 }
 
@@ -56,5 +56,9 @@ img {
   font-size: 0.9rem;
   margin: 0px auto;
   color: #656565;
+}
+
+.router-link-exact-active p {
+  color: red;
 }
 </style>
